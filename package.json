@@ -1,0 +1,33 @@
+{
+  "name": "try_type_script",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "lodash": "^4.17.10"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.116",
+    "ts-loader": "^4.4.2",
+    "typescript": "^3.0.1",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -d",
+    "prod": "webpack -p",
+    "watch": "webpack -w -d"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rpe4a/TryTypeScript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rpe4a/TryTypeScript/issues"
+  },
+  "homepage": "https://github.com/rpe4a/TryTypeScript#readme"
+}
